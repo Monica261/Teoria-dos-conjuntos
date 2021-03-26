@@ -1,0 +1,56 @@
+body{
+	background:url(fundo1.jpg) no-repeat top center;
+}
+
+.formulario{
+	background: #000;
+    border-radius: 30px;
+    width: 50%;
+    justify-content: center;
+    margin: 200px auto;
+    box-shadow: 10px 10px 10px 10px #4682B4;
+    display: flex;
+}
+
+.formulario button{
+	margin: 0 auto;
+	display: block;
+	padding: 8px 18px;
+    background: #4682B4;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+	transform: scale(1.5);
+	transition: 0.5s;
+}
+
+.formulario p{
+	font-size: 22px;
+	color: #fff;
+}
+
+.formulario input{
+	padding: 6px 20px;
+    border: 3px solid #4682B4;
+    border-radius: 10px;
+    margin: 0 auto;
+	display: block;
+}
+
+.resultado{
+	background: #fff;
+    justify-content: center;
+    margin: 0 auto;
+    display: grid;
+    border-radius: 80px;
+}
+
+.resultado p{
+	font-size: 20px;
+}
